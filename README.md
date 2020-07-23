@@ -1,18 +1,15 @@
-# telegram-bot-ruby
+# RubyTelegram
 
 Ruby wrapper for [Telegram's Bot API](https://core.telegram.org/bots/api).
 
-[![Gem Version](https://badge.fury.io/rb/telegram-bot-ruby.svg)](http://badge.fury.io/rb/telegram-bot-ruby)
-[![Maintainability](https://api.codeclimate.com/v1/badges/7e61fbf5bec86e118fb1/maintainability)](https://codeclimate.com/github/atipugin/telegram-bot-ruby/maintainability)
-[![Build Status](https://travis-ci.org/atipugin/telegram-bot-ruby.svg?branch=master)](https://travis-ci.org/atipugin/telegram-bot-ruby)
-[![Say Thanks!](https://img.shields.io/badge/Say%20Thanks!-🦉-1EAEDB.svg)](https://saythanks.io/to/atipugin)
+[![Build Status](https://travis-ci.org/atomiclemon/rubytelegram.svg?branch=master)](https://travis-ci.org/atomiclemon/rubytelegram)
 
 ## Installation
 
 Add following line to your Gemfile:
 
 ```ruby
-gem 'telegram-bot-ruby'
+gem 'rubytelegram'
 ```
 
 And then execute:
@@ -24,7 +21,7 @@ $ bundle
 Or install it system-wide:
 
 ```shell
-$ gem install telegram-bot-ruby
+$ gem install rubytelegram
 ```
 
 ## Usage
@@ -193,10 +190,6 @@ Telegram::Bot.configure do |config|
 end
 ```
 
-## Boilerplates
-
-If you don't know how to setup database for your bot or how to use it with different languages here are some boilerplates which can help you to start faster:
-- [Ruby Telegram Bot boilerplate](https://github.com/telegram-bots/ruby-telegram-bot-boilerplate)
 
 ## Contributing
 
